@@ -111,54 +111,62 @@ AddOutputFilter chunkFilter
 			<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
 			<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
 		</Item>
-		<Item Name="FIRST Code" Type="Folder">
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
-			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
-		</Item>
-		<Item Name="Global Variables" Type="Folder">
-			<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
-		</Item>
 		<Item Name="Driver Station" Type="Folder">
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
 			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
 			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
 		</Item>
+		<Item Name="FIRST Architecture" Type="Folder">
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
+			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+		</Item>
+		<Item Name="Global Variables" Type="Folder">
+			<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
+			<Item Name="dsdata.vi" Type="VI" URL="../dsdata.vi"/>
+			<Item Name="dsinstructions.vi" Type="VI" URL="../dsinstructions.vi"/>
+			<Item Name="outputs.vi" Type="VI" URL="../outputs.vi"/>
+			<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
+			<Item Name="robotmodes.vi" Type="VI" URL="../robotmodes.vi"/>
+			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
+		</Item>
+		<Item Name="Initialization" Type="Folder">
+			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="InitConstants.vi" Type="VI" URL="../InitConstants.vi"/>
+			<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
+			<Item Name="InitSensor.vi" Type="VI" URL="../InitSensor.vi"/>
+			<Item Name="InitStaticVIRefs.vi" Type="VI" URL="../InitStaticVIRefs.vi"/>
+		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
-		<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
-		<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
-		<Item Name="dsdata.vi" Type="VI" URL="../dsdata.vi"/>
-		<Item Name="dsinstructions.vi" Type="VI" URL="../dsinstructions.vi"/>
-		<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
-		<Item Name="FieldOrientedRotate.vi" Type="VI" URL="../FieldOrientedRotate.vi"/>
-		<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
-		<Item Name="InitConstants.vi" Type="VI" URL="../InitConstants.vi"/>
-		<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
-		<Item Name="InitSensor.vi" Type="VI" URL="../InitSensor.vi"/>
-		<Item Name="InitStaticVIRefs.vi" Type="VI" URL="../InitStaticVIRefs.vi"/>
-		<Item Name="KnowPosition.vi" Type="VI" URL="../KnowPosition.vi"/>
-		<Item Name="outputs.vi" Type="VI" URL="../outputs.vi"/>
-		<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
-		<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
-		<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
+		<Item Name="Sensors" Type="Folder">
+			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
+			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
+			<Item Name="KnowPosition.vi" Type="VI" URL="../KnowPosition.vi"/>
+			<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
+		</Item>
+		<Item Name="Subsystem Drive" Type="Folder">
+			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
+			<Item Name="FieldOrientedRotate.vi" Type="VI" URL="../FieldOrientedRotate.vi"/>
+			<Item Name="SwerveCalculations.vi" Type="VI" URL="../SwerveCalculations.vi"/>
+			<Item Name="SwerveChooseAngle_Luke.vi" Type="VI" URL="../SwerveChooseAngle_Luke.vi"/>
+		</Item>
+		<Item Name="Utility" Type="Folder">
+			<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
+			<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
+			<Item Name="TimeThreshold.vi" Type="VI" URL="../TimeThreshold.vi"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
+			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="robotmodes.vi" Type="VI" URL="../robotmodes.vi"/>
-		<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
-		<Item Name="SwerveCalculations.vi" Type="VI" URL="../SwerveCalculations.vi"/>
-		<Item Name="SwerveChooseAngle_Luke.vi" Type="VI" URL="../SwerveChooseAngle_Luke.vi"/>
-		<Item Name="TimeThreshold.vi" Type="VI" URL="../TimeThreshold.vi"/>
-		<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
-		<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
+		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

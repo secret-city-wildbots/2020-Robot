@@ -27,6 +27,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -96,16 +97,25 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="AutoEnd.vi" Type="VI" URL="../AutoEnd.vi"/>
+			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
+			<Item Name="AutoParser.vi" Type="VI" URL="../AutoParser.vi"/>
+			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
+			<Item Name="AutoPressA.vi" Type="VI" URL="../AutoPressA.vi"/>
+			<Item Name="AutoWait.vi" Type="VI" URL="../AutoWait.vi"/>
+			<Item Name="DriveDistance.vi" Type="VI" URL="../DriveDistance.vi"/>
+			<Item Name="DriveHalt.vi" Type="VI" URL="../DriveHalt.vi"/>
+			<Item Name="FollowPath.vi" Type="VI" URL="../FollowPath.vi"/>
+			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
+			<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
+			<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
 		</Item>
-		<Item Name="Support Code" Type="Folder">
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-		</Item>
-		<Item Name="Team Code" Type="Folder">
+		<Item Name="FIRST Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
@@ -113,26 +123,24 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="AutoEnd.vi" Type="VI" URL="../AutoEnd.vi"/>
-		<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
-		<Item Name="AutoParser.vi" Type="VI" URL="../AutoParser.vi"/>
-		<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
-		<Item Name="AutoPressA.vi" Type="VI" URL="../AutoPressA.vi"/>
-		<Item Name="AutoWait.vi" Type="VI" URL="../AutoWait.vi"/>
-		<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
+		<Item Name="Global Variables" Type="Folder">
+			<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
+		</Item>
+		<Item Name="Driver Station" Type="Folder">
+			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
+			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
+			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
+		</Item>
+		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 		<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
-		<Item Name="DriveDistance.vi" Type="VI" URL="../DriveDistance.vi"/>
-		<Item Name="DriveHalt.vi" Type="VI" URL="../DriveHalt.vi"/>
-		<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
-		<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
-		<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
 		<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 		<Item Name="dsdata.vi" Type="VI" URL="../dsdata.vi"/>
 		<Item Name="dsinstructions.vi" Type="VI" URL="../dsinstructions.vi"/>
 		<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
 		<Item Name="FieldOrientedRotate.vi" Type="VI" URL="../FieldOrientedRotate.vi"/>
-		<Item Name="FollowPath.vi" Type="VI" URL="../FollowPath.vi"/>
 		<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 		<Item Name="InitConstants.vi" Type="VI" URL="../InitConstants.vi"/>
 		<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
@@ -140,15 +148,12 @@ AddOutputFilter chunkFilter
 		<Item Name="InitStaticVIRefs.vi" Type="VI" URL="../InitStaticVIRefs.vi"/>
 		<Item Name="KnowPosition.vi" Type="VI" URL="../KnowPosition.vi"/>
 		<Item Name="outputs.vi" Type="VI" URL="../outputs.vi"/>
-		<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
-		<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
 		<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
 		<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
 		<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="robotmodes.vi" Type="VI" URL="../robotmodes.vi"/>
 		<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
-		<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
 		<Item Name="SwerveCalculations.vi" Type="VI" URL="../SwerveCalculations.vi"/>
 		<Item Name="SwerveChooseAngle_Luke.vi" Type="VI" URL="../SwerveChooseAngle_Luke.vi"/>
 		<Item Name="TimeThreshold.vi" Type="VI" URL="../TimeThreshold.vi"/>

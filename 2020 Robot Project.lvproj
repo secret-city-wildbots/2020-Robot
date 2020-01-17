@@ -153,6 +153,7 @@ AddOutputFilter chunkFilter
 			<Item Name="KnowPosition.vi" Type="VI" URL="../KnowPosition.vi"/>
 			<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
+			<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
 		</Item>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>

@@ -98,14 +98,16 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Autonomous" Type="Folder">
-			<Item Name="AutoEnd.vi" Type="VI" URL="../AutoEnd.vi"/>
+			<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParser.vi" Type="VI" URL="../AutoParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
-			<Item Name="AutoPressA.vi" Type="VI" URL="../AutoPressA.vi"/>
-			<Item Name="AutoWait.vi" Type="VI" URL="../AutoWait.vi"/>
-			<Item Name="DriveDistance.vi" Type="VI" URL="../DriveDistance.vi"/>
-			<Item Name="DriveHalt.vi" Type="VI" URL="../DriveHalt.vi"/>
+			<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
+			<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
+			<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
+			<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
+			<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
+			<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
 			<Item Name="FollowPath.vi" Type="VI" URL="../FollowPath.vi"/>
 			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
 			<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
@@ -130,7 +132,7 @@ AddOutputFilter chunkFilter
 			<Item Name="dsinstructions.vi" Type="VI" URL="../dsinstructions.vi"/>
 			<Item Name="outputs.vi" Type="VI" URL="../outputs.vi"/>
 			<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
-			<Item Name="robotmodes.vi" Type="VI" URL="../robotmodes.vi"/>
+			<Item Name="autoinfo.vi" Type="VI" URL="../autoinfo.vi"/>
 			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
 		</Item>
 		<Item Name="Initialization" Type="Folder">
@@ -741,6 +743,13 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
 				<Item Name="CTRE_PigeonIMU_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_RefNumRegistrySet.vi"/>
 				<Item Name="CTRE_PigeonIMU_SetFusedHeading.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_SetFusedHeading.vi"/>
+				<Item Name="NetComm_MatchType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_MatchType.ctl"/>
+				<Item Name="NetComm_getMatchInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getMatchInfo.vi"/>
+				<Item Name="NetComm_AllianceStation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_AllianceStation.ctl"/>
+				<Item Name="NetComm_getAllianceStation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_getAllianceStation.vi"/>
+				<Item Name="WPI_DriverStationPositionInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationPositionInfo.ctl"/>
+				<Item Name="WPI_DriverStationAllianceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationAllianceInfo.ctl"/>
+				<Item Name="WPI_DriverStationGet Alliance Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Alliance Info.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -772,7 +781,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

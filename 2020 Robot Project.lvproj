@@ -146,6 +146,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InitPneumatics.vi" Type="VI" URL="../InitPneumatics.vi"/>
 			<Item Name="InitUserInterface.vi" Type="VI" URL="../InitUserInterface.vi"/>
 			<Item Name="InitDecorations.vi" Type="VI" URL="../InitDecorations.vi"/>
+			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>

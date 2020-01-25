@@ -1,8 +1,0 @@
-DriveWait=-1,;
-DriveWait=1000,;
-FollowPath=1,TestPath1,;
-DriveEnd=;
-*=;
-ManipWait=2000,;
-ManipChangeState=2,;
-ManipEnd=;

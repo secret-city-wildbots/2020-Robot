@@ -1,0 +1,70 @@
+DriveEnd=;
+## finishes the drive sequencer
+# no parameters
+
+DriveWait=mode,param,;
+## pauses the drive sequencer
+# mode=0 --> wait for time delay (ms) or if -1 from the dashboard (s)
+# mode=1 --> wait for subsytem sequence step (#)
+
+DriveDistanceX=distance,speed,;
+## drives the robot in the field-oriented x-direction
+# distance --> (in)
+# speed --> [-1,1]
+
+DriveDistanceY=distance,speed,;
+## drives the robot in the field-oriented y-direction
+# distance --> (in)
+# speed --> [-1,1]
+
+DriveAngleH=goal,speed,;
+## rotates the robot to the goal field-oriented angle
+# angle --> (deg) [0,360]
+# speed --> [-1,1]
+
+SetRobotPosition=X,Y,H,;
+## manually sets the robot's field-oriented pose
+# X --> (in)
+# Y --> (in)
+# H --> (deg) [0,360]
+
+DrivePath=distfromgoal,anglefromgoal,timeout,path,;
+## robot follows the specified path
+# distfromgoal --> maximum distance error (in) to allow advancement
+# anglefromgoal --> maximum angle error (deg) to allow advancement
+# timeount --> maximum elapsed time (ms) before advancement, set to -1 for no timeout
+# path --> name of the path to follow, sans the .csv extension
+
+#-----------------------------------------------------------
+
+ManipEnd=;
+## finishes the subsystem sequencer
+# no parameters
+
+ManipWait=mode,param,;
+## pauses the subsystem sequencer
+# mode=0 --> wait for time delay (ms) or if -1 from the dashboard (s)
+# mode=1 --> wait for drivesequence step (#)
+# mode=2 --> wait for distance (in) from start of current path
+# mode=3 --> wait for distance (in) from end of current path
+
+ManipChangeState=state,;
+## changes the robot's master state
+# state --> robot master state (#)
+
+ManipIntake=;
+## toggles the intake on/off
+# no parameters
+
+
+
+
+
+
+
+
+
+
+
+
+

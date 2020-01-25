@@ -1,9 +1,0 @@
-DriveWait=-1,;
-DriveDistanceX=42,0.3,;
-DriveWait=1000,;
-DriveDistanceY=24,0.3,;
-DriveEnd=;
-*=;
-ManipWait=2000,;
-ManipChangeState=1,;
-ManipEnd=;

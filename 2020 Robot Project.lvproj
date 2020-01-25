@@ -98,21 +98,28 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Autonomous" Type="Folder">
-			<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
+			<Item Name="Subsystem Sequencer" Type="Folder">
+				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
+				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
+				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
+				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
+			</Item>
+			<Item Name="Drive Sequencer" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
+					<Item Name="AutoFeedForward.vi" Type="VI" URL="../AutoFeedForward.vi"/>
+				</Item>
+				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
+				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
+				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
+				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
+				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
+				<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
+			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParser.vi" Type="VI" URL="../AutoParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
-			<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
-			<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
-			<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
-			<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
-			<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
-			<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
-			<Item Name="FollowPath.vi" Type="VI" URL="../FollowPath.vi"/>
 			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
-			<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
-			<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
-			<Item Name="AutoFeedForward.vi" Type="VI" URL="../AutoFeedForward.vi"/>
 		</Item>
 		<Item Name="Driver Station" Type="Folder">
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
@@ -183,17 +190,21 @@ AddOutputFilter chunkFilter
 			<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
 		</Item>
-		<Item Name="Subsystem Shooter" Type="Folder"/>
+		<Item Name="Subsystem Shooter" Type="Folder">
+			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
+		</Item>
 		<Item Name="Subsystem Control Panel" Type="Folder"/>
 		<Item Name="Subsystem Magazine" Type="Folder">
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Climber" Type="Folder"/>
-		<Item Name="Subsystem Custom Circuits" Type="Folder"/>
+		<Item Name="Subsystem Miscellaneous " Type="Folder">
+			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
+			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
-		<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

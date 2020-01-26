@@ -97,30 +97,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Autonomous" Type="Folder">
-			<Item Name="Subsystem Sequencer" Type="Folder">
-				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
-				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
-				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
-				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
-			</Item>
-			<Item Name="Drive Sequencer" Type="Folder">
-				<Item Name="Support" Type="Folder">
-					<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
-					<Item Name="AutoFeedForward.vi" Type="VI" URL="../AutoFeedForward.vi"/>
-				</Item>
-				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
-				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
-				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
-				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
-				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
-				<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
-			</Item>
-			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
-			<Item Name="AutoParser.vi" Type="VI" URL="../AutoParser.vi"/>
-			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
-			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
-		</Item>
 		<Item Name="Driver Station" Type="Folder">
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
 			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
@@ -201,6 +177,30 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystem Miscellaneous " Type="Folder">
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
 			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
+		</Item>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="Subsystem Sequencer" Type="Folder">
+				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
+				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
+				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
+				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
+			</Item>
+			<Item Name="Drive Sequencer" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
+					<Item Name="AutoFeedForward.vi" Type="VI" URL="../AutoFeedForward.vi"/>
+				</Item>
+				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
+				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
+				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
+				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
+				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
+				<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
+			</Item>
+			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
+			<Item Name="AutoParser.vi" Type="VI" URL="../AutoParser.vi"/>
+			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
+			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
@@ -759,7 +759,6 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_Enable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_Enable.vi"/>
 				<Item Name="WPI_CTRE_MotorController_Callback_Disable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/WPI Callback VIs/WPI_CTRE_MotorController_Callback_Disable.vi"/>
-				<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
 				<Item Name="CTRE_PigeonIMU_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_RefNumRegistrySet.vi"/>
 				<Item Name="CTRE_PigeonIMU_SetFusedHeading.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Pigeon IMU/CTRE_PigeonIMU_SetFusedHeading.vi"/>
 				<Item Name="NetComm_MatchType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_MatchType.ctl"/>
@@ -815,6 +814,9 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetInverted.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetInverted.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi"/>
+				<Item Name="CTRE_Phoenix_VictorSPX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Victor SPX/CTRE_Phoenix_VictorSPX_Open.vi"/>
+				<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
+				<Item Name="WPI_JoystickSetOutputs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickSetOutputs.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -846,7 +848,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

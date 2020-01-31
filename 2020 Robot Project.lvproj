@@ -153,6 +153,9 @@ AddOutputFilter chunkFilter
 			<Item Name="SwerveChooseAngle.vi" Type="VI" URL="../SwerveChooseAngle.vi"/>
 			<Item Name="LatchGoalAngle.vi" Type="VI" URL="../LatchGoalAngle.vi"/>
 			<Item Name="SwerveCalculations.vi" Type="VI" URL="../SwerveCalculations.vi"/>
+			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
+			<Item Name="JoystickRotationScaling.vi" Type="VI" URL="../JoystickRotationScaling.vi"/>
+			<Item Name="JoystickStrafeScaling.vi" Type="VI" URL="../JoystickStrafeScaling.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
@@ -165,6 +168,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 			<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
+			<Item Name="InterpolateCalibration.vi" Type="VI" URL="../InterpolateCalibration.vi"/>
 		</Item>
 		<Item Name="Subsystem Shooter" Type="Folder">
 			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
@@ -177,6 +181,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystem Miscellaneous " Type="Folder">
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
 			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
+			<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
 		</Item>
 		<Item Name="Autonomous" Type="Folder">
 			<Item Name="Subsystem Sequencer" Type="Folder">
@@ -848,7 +853,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

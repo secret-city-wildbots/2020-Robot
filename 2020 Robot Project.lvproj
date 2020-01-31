@@ -148,11 +148,14 @@ AddOutputFilter chunkFilter
 			<Item Name="RobotHeadingAngleWrap.vi" Type="VI" URL="../RobotHeadingAngleWrap.vi"/>
 		</Item>
 		<Item Name="Subsystem Drive" Type="Folder">
+			<Item Name="JoystickRotationScaling.vi" Type="VI" URL="../JoystickRotationScaling.vi"/>
+			<Item Name="JoystickStrafeScaling.vi" Type="VI" URL="../JoystickStrafeScaling.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedRotate.vi" Type="VI" URL="../FieldOrientedRotate.vi"/>
 			<Item Name="SwerveChooseAngle.vi" Type="VI" URL="../SwerveChooseAngle.vi"/>
 			<Item Name="LatchGoalAngle.vi" Type="VI" URL="../LatchGoalAngle.vi"/>
 			<Item Name="SwerveCalculations.vi" Type="VI" URL="../SwerveCalculations.vi"/>
+			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
@@ -205,6 +208,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
+		<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
+		<Item Name="InterpolateCalibration.vi" Type="VI" URL="../InterpolateCalibration.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

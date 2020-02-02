@@ -146,6 +146,8 @@ AddOutputFilter chunkFilter
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
 			<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
 			<Item Name="RobotHeadingAngleWrap.vi" Type="VI" URL="../RobotHeadingAngleWrap.vi"/>
+			<Item Name="VisionPoseConversions.vi" Type="VI" URL="../VisionPoseConversions.vi"/>
+			<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 		</Item>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>

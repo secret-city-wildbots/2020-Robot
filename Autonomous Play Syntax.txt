@@ -6,6 +6,7 @@ DriveWait=mode,param,;
 ## pauses the drive sequencer
 # mode=0 --> wait for time delay (ms) or if -1 from the dashboard (s)
 # mode=1 --> wait for subsytem sequence step (#)
+# mode=2 --> wait for time (ms) since shooter started shooting
 
 DriveDistanceX=distance,speed,;
 ## drives the robot in the field-oriented x-direction
@@ -47,6 +48,7 @@ ManipWait=mode,param,;
 # mode=1 --> wait for drivesequence step (#)
 # mode=2 --> wait for distance (in) from start of current path
 # mode=3 --> wait for distance (in) from end of current path
+# mode=4 --> wait for time (ms) since shooter started shooting
 
 ManipChangeState=state,;
 ## changes the robot's master state
@@ -55,6 +57,11 @@ ManipChangeState=state,;
 ManipIntake=;
 ## toggles the intake on/off
 # no parameters
+
+ManipAutoTarget=mode,;
+## enters or exits auto targeting mode
+# mode=0 --> exit autotargeting
+# mode=1 --> enter autotargeting
 
 
 

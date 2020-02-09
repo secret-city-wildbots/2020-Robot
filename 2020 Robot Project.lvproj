@@ -110,6 +110,7 @@ AddOutputFilter chunkFilter
 				<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>
 			</Item>
 			<Item Name="Subsystem Sequencer" Type="Folder">
+				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
@@ -185,6 +186,7 @@ AddOutputFilter chunkFilter
 			<Item Name="LatchGoalAngle.vi" Type="VI" URL="../LatchGoalAngle.vi"/>
 			<Item Name="SwerveCalculations.vi" Type="VI" URL="../SwerveCalculations.vi"/>
 			<Item Name="SwerveChooseAngle.vi" Type="VI" URL="../SwerveChooseAngle.vi"/>
+			<Item Name="SwerveDefensiveCalculations.vi" Type="VI" URL="../SwerveDefensiveCalculations.vi"/>
 		</Item>
 		<Item Name="Subsystem Magazine" Type="Folder">
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>

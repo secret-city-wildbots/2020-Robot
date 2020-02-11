@@ -197,6 +197,7 @@ AddOutputFilter chunkFilter
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Shooter" Type="Folder">
+			<Item Name="CowlStateController.vi" Type="VI" URL="../CowlStateController.vi"/>
 			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">

@@ -1,0 +1,17 @@
+DriveWait=2,2000,;
+DriveWait=0,-1,;
+DriveDistanceX=-20,-0.3,;
+DrivePath=1.5,5,10000,InitiationLineToOurTrench,;
+DriveWait=0,100,;
+DriveEnd=;
+*=;
+ManipAutoTarget=1,;
+ManipWait=4,2000,;
+ManipAutoTarget=0,;
+ManipWait=0,-1,;
+ManipIntake=;
+ManipWait=1,4,;
+ManipAutoTarget=1,;
+ManipIntake=;
+ManipAutoTarget=0,;
+ManipEnd=;

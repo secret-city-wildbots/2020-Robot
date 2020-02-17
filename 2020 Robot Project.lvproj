@@ -204,6 +204,9 @@ AddOutputFilter chunkFilter
 			<Item Name="CowlStateController.vi" Type="VI" URL="../CowlStateController.vi"/>
 			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
 		</Item>
+		<Item Name="Subsystem Turret" Type="Folder">
+			<Item Name="TurretStateController.vi" Type="VI" URL="../TurretStateController.vi"/>
+		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
 			<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>

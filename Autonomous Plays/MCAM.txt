@@ -14,4 +14,5 @@ ManipWait=1,4,;
 ManipAutoTarget=1,;
 ManipIntake=;
 ManipAutoTarget=0,;
+ManipWait=4,2000,;
 ManipEnd=;

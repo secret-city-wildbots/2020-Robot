@@ -166,6 +166,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="ActuatorFaults.vi" Type="VI" URL="../ActuatorFaults.vi"/>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
+			<Item Name="CountShots.vi" Type="VI" URL="../CountShots.vi"/>
 			<Item Name="EstimateTargetPostion.vi" Type="VI" URL="../EstimateTargetPostion.vi"/>
 			<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
@@ -804,7 +805,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

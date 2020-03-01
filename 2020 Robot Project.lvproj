@@ -166,6 +166,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="ActuatorFaults.vi" Type="VI" URL="../ActuatorFaults.vi"/>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
+			<Item Name="CountShots.vi" Type="VI" URL="../CountShots.vi"/>
 			<Item Name="EstimateTargetPostion.vi" Type="VI" URL="../EstimateTargetPostion.vi"/>
 			<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>

@@ -1,0 +1,16 @@
+DriveWait=0,-1,;
+DrivePath=1.5,5,5000,PathToOurTwoBalls,;
+DriveWait=0,250,;
+DrivePath=5,10,9000,PathFromOurTwoBalls,;
+DriveWait=2,3000,;
+DriveEnd=;
+*=;
+ManipWait=0,-1,;
+ManipIntake=;
+ManipWait=1,2,;
+ManipIntake=;
+ManipWait=1,4,;
+ManipAutoTarget=1,;
+ManipWait=4,3000,;
+ManipAutoTarget=0,;
+ManipEnd=;

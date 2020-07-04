@@ -176,12 +176,14 @@ AddOutputFilter chunkFilter
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="CountShots.vi" Type="VI" URL="../CountShots.vi"/>
-			<Item Name="EstimateTargetPostion.vi" Type="VI" URL="../EstimateTargetPostion.vi"/>
+			<Item Name="EstimateTargettingInformation.vi" Type="VI" URL="../EstimateTargettingInformation.vi"/>
 			<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
+			<Item Name="FuseTargetingInformation.vi" Type="VI" URL="../FuseTargetingInformation.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
+			<Item Name="GetRobotPose.vi" Type="VI" URL="../GetRobotPose.vi"/>
 			<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
-			<Item Name="KnowPose.vi" Type="VI" URL="../KnowPose.vi"/>
+			<Item Name="GetVision_old.vi" Type="VI" URL="../GetVision_old.vi"/>
 			<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
 			<Item Name="RobotHeadingAngleWrap.vi" Type="VI" URL="../RobotHeadingAngleWrap.vi"/>
 			<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>

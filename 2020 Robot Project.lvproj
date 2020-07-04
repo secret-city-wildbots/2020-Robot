@@ -146,8 +146,15 @@ AddOutputFilter chunkFilter
 			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
 		</Item>
 		<Item Name="Initialization" Type="Folder">
+			<Item Name="GetRefNumFast" Type="Folder">
+				<Item Name="GRNF_Compressor.vi" Type="VI" URL="../GRNF_Compressor.vi"/>
+				<Item Name="GRNF_CTREMotor.vi" Type="VI" URL="../GRNF_CTREMotor.vi"/>
+				<Item Name="GRNF_GenericMotor.vi" Type="VI" URL="../GRNF_GenericMotor.vi"/>
+				<Item Name="GRNF_GenericSolenoid.vi" Type="VI" URL="../GRNF_GenericSolenoid.vi"/>
+			</Item>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="GetRefNumFast.vi" Type="VI" URL="../GetRefNumFast.vi"/>
 			<Item Name="InitClimber.vi" Type="VI" URL="../InitClimber.vi"/>
 			<Item Name="InitConstants.vi" Type="VI" URL="../InitConstants.vi"/>
 			<Item Name="InitDecorations.vi" Type="VI" URL="../InitDecorations.vi"/>
@@ -178,10 +185,14 @@ AddOutputFilter chunkFilter
 			<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 			<Item Name="VisionPoseConversions.vi" Type="VI" URL="../VisionPoseConversions.vi"/>
 		</Item>
-		<Item Name="Subsystem Climber" Type="Folder"/>
+		<Item Name="Subsystem Climber" Type="Folder">
+			<Item Name="ClimberOutput.vi" Type="VI" URL="../ClimberOutput.vi"/>
+		</Item>
 		<Item Name="Subsystem Control Panel" Type="Folder"/>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="ChooseDefensivePivot.vi" Type="VI" URL="../ChooseDefensivePivot.vi"/>
+			<Item Name="DriveAzimuthOutput.vi" Type="VI" URL="../DriveAzimuthOutput.vi"/>
+			<Item Name="DriveSpeedOutput.vi" Type="VI" URL="../DriveSpeedOutput.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedRotate.vi" Type="VI" URL="../FieldOrientedRotate.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
@@ -193,20 +204,25 @@ AddOutputFilter chunkFilter
 			<Item Name="SwerveDefensiveCalculations.vi" Type="VI" URL="../SwerveDefensiveCalculations.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">
+			<Item Name="IntakeOutput.vi" Type="VI" URL="../IntakeOutput.vi"/>
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Miscellaneous " Type="Folder">
 			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
+			<Item Name="CompressorOutput.vi" Type="VI" URL="../CompressorOutput.vi"/>
+			<Item Name="DecorationsOutput.vi" Type="VI" URL="../DecorationsOutput.vi"/>
 			<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Shooter" Type="Folder">
 			<Item Name="ChooseCowlState.vi" Type="VI" URL="../ChooseCowlState.vi"/>
 			<Item Name="CowlStateController.vi" Type="VI" URL="../CowlStateController.vi"/>
+			<Item Name="ShooterOutput.vi" Type="VI" URL="../ShooterOutput.vi"/>
 			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Turret" Type="Folder">
 			<Item Name="TurretChooseAngle.vi" Type="VI" URL="../TurretChooseAngle.vi"/>
+			<Item Name="TurretOutput.vi" Type="VI" URL="../TurretOutput.vi"/>
 			<Item Name="TurretStateController.vi" Type="VI" URL="../TurretStateController.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">

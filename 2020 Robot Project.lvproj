@@ -153,6 +153,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GRNF_GenericMotor.vi" Type="VI" URL="../GRNF_GenericMotor.vi"/>
 				<Item Name="GRNF_GenericSolenoid.vi" Type="VI" URL="../GRNF_GenericSolenoid.vi"/>
 				<Item Name="GRNF_Joystick.vi" Type="VI" URL="../GRNF_Joystick.vi"/>
+				<Item Name="GRNF_AI.vi" Type="VI" URL="../GRNF_AI.vi"/>
 			</Item>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
@@ -173,7 +174,6 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
-			<Item Name="ActuatorFaults.vi" Type="VI" URL="../ActuatorFaults.vi"/>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="CountShots.vi" Type="VI" URL="../CountShots.vi"/>
 			<Item Name="EstimateTargetPostion.vi" Type="VI" URL="../EstimateTargetPostion.vi"/>
@@ -736,9 +736,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_Power Get 3Volt Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get 3Volt Rail Voltage and Current.vi"/>
 				<Item Name="WPI_Power Get 5Volt Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get 5Volt Rail Voltage and Current.vi"/>
 				<Item Name="WPI_Power Get 6Volt Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get 6Volt Rail Voltage and Current.vi"/>
-				<Item Name="WPI_Power Get PCM Compressor Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Compressor Current.vi"/>
-				<Item Name="WPI_Power Get PCM Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PCM Faults.vi"/>
-				<Item Name="WPI_Power Get PDP Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Currents.vi"/>
 				<Item Name="WPI_Power Get PDP Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Faults.vi"/>
 				<Item Name="WPI_Power Get PDP Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PDP Voltage.vi"/>
 				<Item Name="WPI_Power Get Rail Voltage and Current.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get Rail Voltage and Current.vi"/>

@@ -121,12 +121,6 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
 		</Item>
-		<Item Name="Driver Station Communications" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
-			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
-			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
-		</Item>
 		<Item Name="FIRST Architecture" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -162,7 +156,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InitConstants.vi" Type="VI" URL="../InitConstants.vi"/>
 			<Item Name="InitDecorations.vi" Type="VI" URL="../InitDecorations.vi"/>
 			<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
-			<Item Name="InitMagazine.vi" Type="VI" URL="../InitMagazine.vi"/>
+			<Item Name="InitIntakeAndMagazine.vi" Type="VI" URL="../InitIntakeAndMagazine.vi"/>
 			<Item Name="InitPneumatics.vi" Type="VI" URL="../InitPneumatics.vi"/>
 			<Item Name="InitSensors.vi" Type="VI" URL="../InitSensors.vi"/>
 			<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
@@ -233,6 +227,12 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystem Turret" Type="Folder">
 			<Item Name="TurretChooseAngle.vi" Type="VI" URL="../TurretChooseAngle.vi"/>
 			<Item Name="TurretStateController.vi" Type="VI" URL="../TurretStateController.vi"/>
+		</Item>
+		<Item Name="User Interface" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
+			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
+			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>

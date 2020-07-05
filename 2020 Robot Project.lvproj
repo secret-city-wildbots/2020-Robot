@@ -174,36 +174,40 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
+			<Item Name="Robot Pose and Targeting" Type="Folder">
+				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
+				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
+				<Item Name="FuseTargetingInformation.vi" Type="VI" URL="../FuseTargetingInformation.vi"/>
+				<Item Name="GetPoseAndTargeting.vi" Type="VI" URL="../GetPoseAndTargeting.vi"/>
+				<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
+				<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
+				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
+				<Item Name="VisionPoseConversions.vi" Type="VI" URL="../VisionPoseConversions.vi"/>
+			</Item>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="CountShots.vi" Type="VI" URL="../CountShots.vi"/>
-			<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
-			<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
-			<Item Name="FuseTargetingInformation.vi" Type="VI" URL="../FuseTargetingInformation.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
-			<Item Name="GetRobotPose.vi" Type="VI" URL="../GetRobotPose.vi"/>
-			<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
-			<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
-			<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
-			<Item Name="VisionPoseConversions.vi" Type="VI" URL="../VisionPoseConversions.vi"/>
 		</Item>
 		<Item Name="Subsystem Climber" Type="Folder">
 			<Item Name="ClimberOutput.vi" Type="VI" URL="../ClimberOutput.vi"/>
 		</Item>
 		<Item Name="Subsystem Control Panel" Type="Folder"/>
 		<Item Name="Subsystem Drive" Type="Folder">
-			<Item Name="ChooseDefensivePivot.vi" Type="VI" URL="../ChooseDefensivePivot.vi"/>
+			<Item Name="Swerve Toolbox" Type="Folder">
+				<Item Name="ChooseDefensivePivot.vi" Type="VI" URL="../ChooseDefensivePivot.vi"/>
+				<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
+				<Item Name="SwerveCenterKinematics.vi" Type="VI" URL="../SwerveCenterKinematics.vi"/>
+				<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
+				<Item Name="SwerveCornerKinematics.vi" Type="VI" URL="../SwerveCornerKinematics.vi"/>
+				<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
+				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
+				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
+			</Item>
 			<Item Name="DriveAzimuthOutput.vi" Type="VI" URL="../DriveAzimuthOutput.vi"/>
 			<Item Name="DriveSpeedOutput.vi" Type="VI" URL="../DriveSpeedOutput.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
-			<Item Name="FieldOrientedRotate.vi" Type="VI" URL="../FieldOrientedRotate.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
-			<Item Name="JoystickRotationScaling.vi" Type="VI" URL="../JoystickRotationScaling.vi"/>
-			<Item Name="JoystickStrafeScaling.vi" Type="VI" URL="../JoystickStrafeScaling.vi"/>
-			<Item Name="LatchGoalAngle.vi" Type="VI" URL="../LatchGoalAngle.vi"/>
-			<Item Name="SwerveCalculations.vi" Type="VI" URL="../SwerveCalculations.vi"/>
-			<Item Name="SwerveChooseAngle.vi" Type="VI" URL="../SwerveChooseAngle.vi"/>
-			<Item Name="SwerveDefensiveCalculations.vi" Type="VI" URL="../SwerveDefensiveCalculations.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">
 			<Item Name="IntakeOutput.vi" Type="VI" URL="../IntakeOutput.vi"/>

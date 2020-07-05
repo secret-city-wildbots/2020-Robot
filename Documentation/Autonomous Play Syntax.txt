@@ -23,11 +23,10 @@ DriveAngleH=goal,speed,;
 # angle --> (deg) [0,360]
 # speed --> [-1,1]
 
-SetRobotPosition=X,Y,H,;
+SetRobotPosition=X,Y,;
 ## manually sets the robot's field-oriented pose
 # X --> (in)
 # Y --> (in)
-# H --> (deg) [0,360]
 
 DrivePath=distfromgoal,anglefromgoal,timeout,path,;
 ## robot follows the specified path

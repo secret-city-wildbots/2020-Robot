@@ -121,7 +121,7 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
 		</Item>
-		<Item Name="Driver Station and Communications" Type="Folder">
+		<Item Name="Driver Station Communications" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
 			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
@@ -136,7 +136,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
-			<Item Name="autoinfo.vi" Type="VI" URL="../autoinfo.vi"/>
+			<Item Name="autoninfo.vi" Type="VI" URL="../autoninfo.vi"/>
 			<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
 			<Item Name="dsdata.vi" Type="VI" URL="../dsdata.vi"/>
 			<Item Name="dsinstructions.vi" Type="VI" URL="../dsinstructions.vi"/>
@@ -173,6 +173,17 @@ AddOutputFilter chunkFilter
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Outputs" Type="Folder">
+			<Item Name="ClimberOutput.vi" Type="VI" URL="../ClimberOutput.vi"/>
+			<Item Name="CompressorOutput.vi" Type="VI" URL="../CompressorOutput.vi"/>
+			<Item Name="DecorationsOutput.vi" Type="VI" URL="../DecorationsOutput.vi"/>
+			<Item Name="DriveAzimuthOutput.vi" Type="VI" URL="../DriveAzimuthOutput.vi"/>
+			<Item Name="DriveSpeedOutput.vi" Type="VI" URL="../DriveSpeedOutput.vi"/>
+			<Item Name="IntakeAndMagazineOutput.vi" Type="VI" URL="../IntakeAndMagazineOutput.vi"/>
+			<Item Name="LimeLightOutput.vi" Type="VI" URL="../LimeLightOutput.vi"/>
+			<Item Name="ShooterOutput.vi" Type="VI" URL="../ShooterOutput.vi"/>
+			<Item Name="TurretOutput.vi" Type="VI" URL="../TurretOutput.vi"/>
+		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Robot Pose and Targeting" Type="Folder">
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
@@ -189,9 +200,7 @@ AddOutputFilter chunkFilter
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
 		</Item>
-		<Item Name="Subsystem Climber" Type="Folder">
-			<Item Name="ClimberOutput.vi" Type="VI" URL="../ClimberOutput.vi"/>
-		</Item>
+		<Item Name="Subsystem Climber" Type="Folder"/>
 		<Item Name="Subsystem Control Panel" Type="Folder"/>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="Swerve Toolbox" Type="Folder">
@@ -204,33 +213,25 @@ AddOutputFilter chunkFilter
 				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
 				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
 			</Item>
-			<Item Name="DriveAzimuthOutput.vi" Type="VI" URL="../DriveAzimuthOutput.vi"/>
 			<Item Name="DriveModeStateController.vi" Type="VI" URL="../DriveModeStateController.vi"/>
-			<Item Name="DriveSpeedOutput.vi" Type="VI" URL="../DriveSpeedOutput.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">
-			<Item Name="IntakeOutput.vi" Type="VI" URL="../IntakeOutput.vi"/>
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Miscellaneous " Type="Folder">
 			<Item Name="CameraStateController.vi" Type="VI" URL="../CameraStateController.vi"/>
-			<Item Name="CompressorOutput.vi" Type="VI" URL="../CompressorOutput.vi"/>
-			<Item Name="DecorationsOutput.vi" Type="VI" URL="../DecorationsOutput.vi"/>
 			<Item Name="EmergencyPowerStateController.vi" Type="VI" URL="../EmergencyPowerStateController.vi"/>
 			<Item Name="LEDStateController.vi" Type="VI" URL="../LEDStateController.vi"/>
-			<Item Name="LimeLightOutput.vi" Type="VI" URL="../LimeLightOutput.vi"/>
 		</Item>
 		<Item Name="Subsystem Shooter" Type="Folder">
 			<Item Name="ChooseCowlState.vi" Type="VI" URL="../ChooseCowlState.vi"/>
 			<Item Name="CowlStateController.vi" Type="VI" URL="../CowlStateController.vi"/>
-			<Item Name="ShooterOutput.vi" Type="VI" URL="../ShooterOutput.vi"/>
 			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Turret" Type="Folder">
 			<Item Name="TurretChooseAngle.vi" Type="VI" URL="../TurretChooseAngle.vi"/>
-			<Item Name="TurretOutput.vi" Type="VI" URL="../TurretOutput.vi"/>
 			<Item Name="TurretStateController.vi" Type="VI" URL="../TurretStateController.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">

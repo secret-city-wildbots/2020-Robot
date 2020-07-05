@@ -205,6 +205,7 @@ AddOutputFilter chunkFilter
 				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
 			</Item>
 			<Item Name="DriveAzimuthOutput.vi" Type="VI" URL="../DriveAzimuthOutput.vi"/>
+			<Item Name="DriveModeStateController.vi" Type="VI" URL="../DriveModeStateController.vi"/>
 			<Item Name="DriveSpeedOutput.vi" Type="VI" URL="../DriveSpeedOutput.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
@@ -245,6 +246,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
+			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 			<Item Name="TimeThreshold.vi" Type="VI" URL="../TimeThreshold.vi"/>
 			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>

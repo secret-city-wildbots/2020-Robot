@@ -117,8 +117,9 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
-			<Item Name="AutoParser.vi" Type="VI" URL="../AutoParser.vi"/>
+			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
+			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
 			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
 		</Item>
 		<Item Name="FIRST Architecture" Type="Folder">

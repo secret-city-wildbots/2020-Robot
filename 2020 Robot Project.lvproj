@@ -195,7 +195,9 @@ AddOutputFilter chunkFilter
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
 		</Item>
-		<Item Name="Subsystem Climber" Type="Folder"/>
+		<Item Name="Subsystem Climber" Type="Folder">
+			<Item Name="ClimbSequencer.vi" Type="VI" URL="../ClimbSequencer.vi"/>
+		</Item>
 		<Item Name="Subsystem Control Panel" Type="Folder"/>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="Swerve Toolbox" Type="Folder">

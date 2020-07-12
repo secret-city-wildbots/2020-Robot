@@ -229,6 +229,9 @@ AddOutputFilter chunkFilter
 			<Item Name="TurretChooseAngle.vi" Type="VI" URL="../TurretChooseAngle.vi"/>
 			<Item Name="TurretStateController.vi" Type="VI" URL="../TurretStateController.vi"/>
 		</Item>
+		<Item Name="Subsytem Magazine" Type="Folder">
+			<Item Name="MagazineStateController.vi" Type="VI" URL="../MagazineStateController.vi"/>
+		</Item>
 		<Item Name="User Interface" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>

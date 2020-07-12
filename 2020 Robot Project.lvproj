@@ -105,6 +105,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
 				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
 				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
+				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
 				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>
 				<Item Name="SetRobotPosition.vi" Type="VI" URL="../SetRobotPosition.vi"/>

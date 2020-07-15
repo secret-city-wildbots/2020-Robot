@@ -1,3 +1,11 @@
+Name: MoveOffInitLineClearShoot3
+Starting Location: Can start anywhere where robot can see the target
+Push Start Location (x,y,h): (509.2, measured distance, 0)
+Number of balls to start: 3
+What it does: Spins up shooter, backs off the init line, moves forward to give robots more space, shoots 3 balls
+Revision: 3/4/20
+Confidence: Not recommended
+*
 DriveWait=0,-1,;
 DriveDistanceX=-40,-0.3,;
 DriveWait=0,100,;

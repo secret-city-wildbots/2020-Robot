@@ -1,3 +1,10 @@
+Name: Steal2Shoot5
+Starting Location: Facing towards drivers, middle of bot on init line, aligned left/right with the trench balls
+Push Start Location (x,y,h): (509.2, 297.0, 180)
+What it does: Spins up shooter, drives forward off the init line and steals two balls, drives to the front of the power port and shoots 5
+Revision: 3/4/20
+Confidence: Unsure
+*
 DriveWait=0,-1,;
 DrivePath=1.5,5,5000,PathToStealBalls,;
 DriveWait=0,250,;

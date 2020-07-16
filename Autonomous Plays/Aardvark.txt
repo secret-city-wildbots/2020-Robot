@@ -6,8 +6,8 @@ What it does: Spins up shooter and doesn't move
 Revision: 3/4/20
 Confidence: Very confident
 *
-DriveWait=0,-1,;
+DriveWait=0,-1;
 DriveEnd=;
 *=;
-ManipWait=0,-1,;
+ManipWait=0,-1;
 ManipEnd=;

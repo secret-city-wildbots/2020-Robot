@@ -6,9 +6,9 @@ What it does: Spins up shooter and backs off init line
 Revision: 3/4/20
 Confidence: Very confident
 *
-DriveWait=0,-1,;
-DriveDistanceX=-40,-0.3,;
-DriveWait=0,100,;
+DriveWait=0,-1;
+DriveDistanceX=-40,-0.3;
+DriveWait=0,100;
 DriveEnd=;
 *=;
 ManipEnd=;

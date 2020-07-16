@@ -6,16 +6,16 @@ What it does: Spins up shooter, backs off the init line, moves forward to give r
 Revision: 3/4/20
 Confidence: Not recommended
 *
-DriveWait=0,-1,;
-DriveDistanceX=-40,-0.3,;
-DriveWait=0,100,;
-DriveDistanceX=50,0.3,;
-DriveWait=2,2000,;
+DriveWait=0,-1;
+DriveDistanceX=-40,-0.3;
+DriveWait=0,100;
+DriveDistanceX=50,0.3;
+DriveWait=2,2000;
 DriveEnd=;
 *=;
-ManipWait=0,-1,;
-ManipWait=1,4,;
-ManipAutoTarget=1,;
-ManipWait=4,2000,;
-ManipAutoTarget=0,;
+ManipWait=0,-1;
+ManipWait=1,4;
+ManipAutoTarget=1;
+ManipWait=4,2000;
+ManipAutoTarget=0;
 ManipEnd=;

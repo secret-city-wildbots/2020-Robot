@@ -118,10 +118,18 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
+			<Item Name="AutoParameterParser.vi" Type="VI" URL="../AutoParameterParser.vi"/>
+			<Item Name="AutoParameterParser2.vi" Type="VI" URL="../AutoParameterParser2.vi"/>
 			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
-			<Item Name="ParameterParser.vi" Type="VI" URL="../ParameterParser.vi"/>
+		</Item>
+		<Item Name="Communications" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
+			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
+			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
+			<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
 		</Item>
 		<Item Name="FIRST Architecture" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -235,13 +243,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsytem Magazine" Type="Folder">
 			<Item Name="MagazineStateController.vi" Type="VI" URL="../MagazineStateController.vi"/>
 		</Item>
-		<Item Name="User Interface" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
-			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
-			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
-		</Item>
 		<Item Name="Utility" Type="Folder">
+			<Item Name="SafeParser" Type="Folder"/>
 			<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>
 			<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
 			<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
@@ -251,7 +254,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 			<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
 			<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>
-			<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
+			<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>

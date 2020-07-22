@@ -123,6 +123,10 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
+			<Item Name="CheckForErrorsFloat.vi" Type="VI" URL="../CheckForErrorsFloat.vi"/>
+			<Item Name="CheckForErrorsInt.vi" Type="VI" URL="../CheckForErrorsInt.vi"/>
+			<Item Name="CheckForErrorsString.vi" Type="VI" URL="../CheckForErrorsString.vi"/>
+			<Item Name="SafeParse.vi" Type="VI" URL="../SafeParse.vi"/>
 		</Item>
 		<Item Name="Communications and UI" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>

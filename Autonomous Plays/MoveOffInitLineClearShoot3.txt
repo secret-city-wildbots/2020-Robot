@@ -7,7 +7,7 @@ Revision: 3/4/20
 Confidence: Not recommended
 *
 DriveWait=0,-1;
-DriveDistanceX=-40,-0.3;
+DriveDistanceX=40,-0.3;
 DriveWait=0,100;
 DriveDistanceX=50,0.3;
 DriveWait=2,2000;

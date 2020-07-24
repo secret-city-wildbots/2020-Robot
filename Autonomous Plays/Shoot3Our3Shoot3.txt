@@ -6,7 +6,7 @@ Revision: 3/4/20
 Confidence: Doesn't finish in under 15 seconds, but grabs 3 balls before time's up
 *
 DriveWait=0,-1;
-DriveDistanceX=-40,-0.3;
+DriveDistanceX=40,-0.3;
 DriveWait=2,2000;
 DriveWait=0,100;
 DriveAngleH=180,0.4;

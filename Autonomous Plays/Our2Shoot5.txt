@@ -3,7 +3,7 @@ Starting Location: Middle of robot on init line facing toward the drivers and al
 Push Start Location (x,y,h): (509.2, 26.0, 180.0)
 Number of balls to start: 3
 What it does: Spins up shooter, drives forward off of the init line, grabs two balls in our trench, returns to front of trench and shoots 5 balls
-Revision: 3/4/20
+Revision: 7/23/20
 Confidence: Runs, but needs more tuning for shots to be accurate
 *
 DriveWait=0,-1;

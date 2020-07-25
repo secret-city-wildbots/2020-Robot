@@ -3,7 +3,7 @@ Starting Location: Can start anywhere legal with middle of robot on initiation l
 Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0 or 180)
 Number of balls to start: Any 
 What it does: Spins up shooter and doesn't move
-Revision: 3/4/20
+Revision: 7/23/20
 Confidence: Very confident
 *
 DriveWait=0,-1;

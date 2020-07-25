@@ -3,7 +3,7 @@ Starting Location: Can start anywhere legal with middle of robot on initiation l
 Push Start Location (x,y,h): (509.2, measured distance, 0)
 Number of balls to start: Any
 What it does: Spins up shooter and backs off init line
-Revision: 3/4/20
+Revision: 7/23/20
 Confidence: Very confident
 *
 DriveWait=0,-1;

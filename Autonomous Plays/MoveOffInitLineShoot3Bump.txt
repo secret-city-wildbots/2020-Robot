@@ -3,7 +3,7 @@ Starting Location: Can start anywhere where robot can see the target
 Push Start Location (x,y,h): (509.2, measured distance, 0)
 Number of balls to start: 3
 What it does: Spins up shooter, backs off init line, shoots 3 balls
-Revision: 3/4/20
+Revision: 7/23/20
 Confidence: Confident
 *
 DriveWait=0,-1;

@@ -258,7 +258,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 			<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
 			<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>
-			<Item Name="SafeParse.vi" Type="VI" URL="../SafeParse.vi"/>
+			<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>

@@ -118,15 +118,10 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipWait.vi" Type="VI" URL="../ManipWait.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
-			<Item Name="AutoParameterParser.vi" Type="VI" URL="../AutoParameterParser.vi"/>
-			<Item Name="AutoParameterParser2.vi" Type="VI" URL="../AutoParameterParser2.vi"/>
+			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>
 			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
-			<Item Name="CheckForErrorsFloat.vi" Type="VI" URL="../CheckForErrorsFloat.vi"/>
-			<Item Name="CheckForErrorsInt.vi" Type="VI" URL="../CheckForErrorsInt.vi"/>
-			<Item Name="CheckForErrorsString.vi" Type="VI" URL="../CheckForErrorsString.vi"/>
-			<Item Name="SafeParse.vi" Type="VI" URL="../SafeParse.vi"/>
 		</Item>
 		<Item Name="Communications and UI" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -249,7 +244,11 @@ AddOutputFilter chunkFilter
 			<Item Name="MagazineStateController.vi" Type="VI" URL="../MagazineStateController.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="SafeParser" Type="Folder"/>
+			<Item Name="SafeParser" Type="Folder">
+				<Item Name="SafeParser_Float.vi" Type="VI" URL="../SafeParser_Float.vi"/>
+				<Item Name="SafeParser_Integer.vi" Type="VI" URL="../SafeParser_Integer.vi"/>
+				<Item Name="SafeParser_String.vi" Type="VI" URL="../SafeParser_String.vi"/>
+			</Item>
 			<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>
 			<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
 			<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
@@ -259,7 +258,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 			<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
 			<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>
-			<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
+			<Item Name="SafeParse.vi" Type="VI" URL="../SafeParse.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>

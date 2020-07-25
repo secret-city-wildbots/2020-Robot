@@ -2,33 +2,33 @@ DriveEnd=;
 ## finishes the drive sequencer
 # no parameters
 
-DriveWait=mode,param,;
+DriveWait=mode,param;
 ## pauses the drive sequencer
 # mode=0 --> wait for time delay (ms) or if -1 from the dashboard (s)
 # mode=1 --> wait for subsytem sequence step (#)
 # mode=2 --> wait for time (ms) since shooter started shooting
 
-DriveDistanceX=distance,speed,;
+DriveDistanceX=distance,speed;
 ## drives the robot in the field-oriented x-direction
 # distance --> (in)
 # speed --> [-1,1]
 
-DriveDistanceY=distance,speed,;
+DriveDistanceY=distance,speed;
 ## drives the robot in the field-oriented y-direction
 # distance --> (in)
 # speed --> [-1,1]
 
-DriveAngleH=goal,speed,;
+DriveAngleH=goal,speed;
 ## rotates the robot to the goal field-oriented angle
 # angle --> (deg) [0,360]
 # speed --> [-1,1]
 
-SetRobotPosition=X,Y,;
+SetRobotPosition=X,Y;
 ## manually sets the robot's field-oriented pose
 # X --> (in)
 # Y --> (in)
 
-DrivePath=distfromgoal,anglefromgoal,timeout,path,;
+DrivePath=distfromgoal,anglefromgoal,timeout,path;
 ## robot follows the specified path
 # distfromgoal --> maximum distance error (in) to allow advancement
 # anglefromgoal --> maximum angle error (deg) to allow advancement
@@ -41,7 +41,7 @@ ManipEnd=;
 ## finishes the subsystem sequencer
 # no parameters
 
-ManipWait=mode,param,;
+ManipWait=mode,param;
 ## pauses the subsystem sequencer
 # mode=0 --> wait for time delay (ms) or if -1 from the dashboard (s)
 # mode=1 --> wait for drivesequence step (#)
@@ -50,7 +50,7 @@ ManipWait=mode,param,;
 # mode=4 --> wait for time (ms) since shooter started shooting
 # mode=5 --> wait for time (ms) since shooter started shooting and bump the intake
 
-ManipChangeState=state,;
+ManipChangeState=state;
 ## changes the robot's master state
 # state --> robot master state (#)
 
@@ -58,7 +58,7 @@ ManipIntake=;
 ## toggles the intake on/off
 # no parameters
 
-ManipAutoTarget=mode,;
+ManipAutoTarget=mode;
 ## enters or exits auto targeting mode
 # mode=0 --> exit autotargeting
 # mode=1 --> enter autotargeting

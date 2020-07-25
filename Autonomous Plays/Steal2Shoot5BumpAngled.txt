@@ -1,16 +1,23 @@
-DriveWait=0,-1,;
-DrivePath=1.5,5,5000,PathToStealBallsAngled,;
-DriveWait=0,250,;
-DrivePath=5,10,9000,PathFromStealBallsAngled,;
-DriveWait=2,3000,;
+Name: Steal2Shoot5
+Starting Location: Facing towards drivers, middle of bot on init line, aligned left/right with the trench balls
+Push Start Location (x,y,h): (509.2, 297.0, 180)
+What it does: Spins up shooter, drives forward off the init line and steals two balls, drives to the front of the power port and shoots 5
+Revision: 3/4/20
+Confidence: Unsure
+*
+DriveWait=0,-1;
+DrivePath=1.5,5,5000,PathToStealBallsAngled;
+DriveWait=0,250;
+DrivePath=5,10,9000,PathFromStealBallsAngled;
+DriveWait=2,3000;
 DriveEnd=;
 *=;
-ManipWait=0,-1,;
+ManipWait=0,-1;
 ManipIntake=;
-ManipWait=1,3,;
+ManipWait=1,3;
 ManipIntake=;
-ManipWait=1,4,;
-ManipAutoTarget=1,;
-ManipWait=5,3000,;
-ManipAutoTarget=0,;
+ManipWait=1,4;
+ManipAutoTarget=1;
+ManipWait=5,3000;
+ManipAutoTarget=0;
 ManipEnd=;

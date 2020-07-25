@@ -1,5 +1,13 @@
-DriveWait=0,-1,;
+Name: Aardvark
+Starting Location: Can start anywhere legal with middle of robot on initiation line
+Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0 or 180)
+Number of balls to start: Any 
+What it does: Spins up shooter and doesn't move
+Revision: 3/4/20
+Confidence: Very confident
+*
+DriveWait=0,-1;
 DriveEnd=;
 *=;
-ManipWait=0,-1,;
+ManipWait=0,-1;
 ManipEnd=;

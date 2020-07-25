@@ -1,6 +1,14 @@
-DriveWait=0,-1,;
-DriveDistanceX=-40,-0.3,;
-DriveWait=0,100,;
+Name: MoveOffInitLine
+Starting Location: Can start anywhere legal with middle of robot on initiation line
+Push Start Location (x,y,h): (509.2, measured distance, 0)
+Number of balls to start: Any
+What it does: Spins up shooter and backs off init line
+Revision: 3/4/20
+Confidence: Very confident
+*
+DriveWait=0,-1;
+DriveDistanceX=40,-0.3;
+DriveWait=0,100;
 DriveEnd=;
 *=;
 ManipEnd=;

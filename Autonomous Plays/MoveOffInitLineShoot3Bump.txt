@@ -1,10 +1,18 @@
-DriveWait=0,-1,;
-DriveDistanceX=-40,-0.3,;
-DriveWait=2,2000,;
+Name: MoveOffInitLineShoot3
+Starting Location: Can start anywhere where robot can see the target
+Push Start Location (x,y,h): (509.2, measured distance, 0)
+Number of balls to start: 3
+What it does: Spins up shooter, backs off init line, shoots 3 balls
+Revision: 3/4/20
+Confidence: Confident
+*
+DriveWait=0,-1;
+DriveDistanceX=40,-0.3;
+DriveWait=2,2000;
 DriveEnd=;
 *=;
-ManipWait=0,-1,;
-ManipAutoTarget=1,;
-ManipWait=5,2000,;
-ManipAutoTarget=0,;
+ManipWait=0,-1;
+ManipAutoTarget=1;
+ManipWait=5,2000;
+ManipAutoTarget=0;
 ManipEnd=;

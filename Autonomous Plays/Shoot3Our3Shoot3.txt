@@ -1,24 +1,31 @@
-DriveWait=0,-1,;
-DriveDistanceX=-40,-0.3,;
-DriveWait=2,2000,;
-DriveWait=0,100,;
-DriveAngleH=180,0.4,;
-DrivePath=2,5,5000,PathToOurTrenchBalls,;
-DriveWait=0,250,;
-DriveDistanceY=30,0.3,;
-DriveWait=2,4000,;
+Name: Shoot3Our3Shoot3
+Starting Location: Middle of robot on init line, facing the oppposing alliance wall, 50 inches from our trench wall to center of bot
+Push Start Location (x,y,h): (509.2, 50.0, 0.0)
+What it does: Spins up shooter, backs off init line, shoots 3 balls, spins in place, gets 3 trench balls, goes to front of trench and shoots 3
+Revision: 3/4/20
+Confidence: Doesn't finish in under 15 seconds, but grabs 3 balls before time's up
+*
+DriveWait=0,-1;
+DriveDistanceX=40,-0.3;
+DriveWait=2,2000;
+DriveWait=0,100;
+DriveAngleH=180,0.4;
+DrivePath=2,5,5000,PathToOurTrenchBalls;
+DriveWait=0,250;
+DriveDistanceY=30,0.3;
+DriveWait=2,4000;
 DriveEnd=;
 *=;
-ManipWait=0,-1,;
-ManipAutoTarget=1,;
-ManipWait=4,2000,;
-ManipAutoTarget=0,;
-ManipWait=1,4,;
+ManipWait=0,-1;
+ManipAutoTarget=1;
+ManipWait=4,2000;
+ManipAutoTarget=0;
+ManipWait=1,4;
 ManipIntake=;
-ManipWait=1,6,;
+ManipWait=1,6;
 ManipIntake=;
-ManipWait=1,8,;
-ManipAutoTarget=1,;
-ManipWait=4,6000,;
-ManipAutoTarget=0,;
+ManipWait=1,8;
+ManipAutoTarget=1;
+ManipWait=4,6000;
+ManipAutoTarget=0;
 ManipEnd=;

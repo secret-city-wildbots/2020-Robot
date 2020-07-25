@@ -1,16 +1,24 @@
-DriveWait=0,-1,;
-DrivePath=1.5,5,5000,PathToOurTwoBalls,;
-DriveWait=0,250,;
-DrivePath=5,10,9000,PathFromOurTwoBalls,;
-DriveWait=2,3000,;
+Name: Our2Shoot5
+Starting Location: Middle of robot on init line facing toward the drivers and aligned left/right with the balls
+Push Start Location (x,y,h): (509.2, 26.0, 180.0)
+Number of balls to start: 3
+What it does: Spins up shooter, drives forward off of the init line, grabs two balls in our trench, returns to front of trench and shoots 5 balls
+Revision: 3/4/20
+Confidence: Runs, but needs more tuning for shots to be accurate
+*
+DriveWait=0,-1;
+DrivePath=1.5,5,5000,PathToOurTwoBalls;
+DriveWait=0,250;
+DrivePath=5,10,9000,PathFromOurTwoBalls;
+DriveWait=2,3000;
 DriveEnd=;
 *=;
-ManipWait=0,-1,;
+ManipWait=0,-1;
 ManipIntake=;
-ManipWait=1,2,;
+ManipWait=1,2;
 ManipIntake=;
-ManipWait=1,4,;
-ManipAutoTarget=1,;
-ManipWait=5,3000,;
-ManipAutoTarget=0,;
+ManipWait=1,4;
+ManipAutoTarget=1;
+ManipWait=5,3000;
+ManipAutoTarget=0;
 ManipEnd=;

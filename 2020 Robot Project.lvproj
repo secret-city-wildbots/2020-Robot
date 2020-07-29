@@ -266,6 +266,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
+		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>

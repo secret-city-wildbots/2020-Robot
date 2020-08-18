@@ -198,6 +198,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
 				<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
+				<Item Name="TurretCoordinateTransform.vi" Type="VI" URL="../TurretCoordinateTransform.vi"/>
 				<Item Name="VisionPoseConversions.vi" Type="VI" URL="../VisionPoseConversions.vi"/>
 			</Item>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
@@ -238,6 +239,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Subsystem Turret" Type="Folder">
 			<Item Name="TurretChooseAngle.vi" Type="VI" URL="../TurretChooseAngle.vi"/>
+			<Item Name="TurretChooseAngle2.vi" Type="VI" URL="../TurretChooseAngle2.vi"/>
 			<Item Name="TurretStateController.vi" Type="VI" URL="../TurretStateController.vi"/>
 		</Item>
 		<Item Name="Subsytem Magazine" Type="Folder">

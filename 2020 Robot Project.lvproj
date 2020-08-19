@@ -238,7 +238,6 @@ AddOutputFilter chunkFilter
 			<Item Name="ShooterStateController.vi" Type="VI" URL="../ShooterStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Turret" Type="Folder">
-			<Item Name="TurretChooseAngle.vi" Type="VI" URL="../TurretChooseAngle.vi"/>
 			<Item Name="TurretChooseAngle2.vi" Type="VI" URL="../TurretChooseAngle2.vi"/>
 			<Item Name="TurretStateController.vi" Type="VI" URL="../TurretStateController.vi"/>
 		</Item>

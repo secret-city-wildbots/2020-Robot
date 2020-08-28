@@ -250,7 +250,6 @@ AddOutputFilter chunkFilter
 				<Item Name="SafeParser_String.vi" Type="VI" URL="../SafeParser_String.vi"/>
 			</Item>
 			<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>
-			<Item Name="CustomPID_v3.0.vi" Type="VI" URL="../CustomPID_v3.0.vi"/>
 			<Item Name="CustomPID_v4.0.vi" Type="VI" URL="../CustomPID_v4.0.vi"/>
 			<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>

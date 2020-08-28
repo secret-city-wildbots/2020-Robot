@@ -194,6 +194,7 @@ AddOutputFilter chunkFilter
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
 				<Item Name="FuseTargetingInformation.vi" Type="VI" URL="../FuseTargetingInformation.vi"/>
+				<Item Name="GetLIDAR.vi" Type="VI" URL="../GetLIDAR.vi"/>
 				<Item Name="GetPoseAndTargeting.vi" Type="VI" URL="../GetPoseAndTargeting.vi"/>
 				<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
 				<Item Name="PigeonSensorReadings.vi" Type="VI" URL="../PigeonSensorReadings.vi"/>

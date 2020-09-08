@@ -167,6 +167,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InitConstants.vi" Type="VI" URL="../InitConstants.vi"/>
 			<Item Name="InitDecorations.vi" Type="VI" URL="../InitDecorations.vi"/>
 			<Item Name="InitDrive.vi" Type="VI" URL="../InitDrive.vi"/>
+			<Item Name="InitFolderTree.vi" Type="VI" URL="../InitFolderTree.vi"/>
 			<Item Name="InitIntakeAndMagazine.vi" Type="VI" URL="../InitIntakeAndMagazine.vi"/>
 			<Item Name="InitPneumatics.vi" Type="VI" URL="../InitPneumatics.vi"/>
 			<Item Name="InitSensors.vi" Type="VI" URL="../InitSensors.vi"/>

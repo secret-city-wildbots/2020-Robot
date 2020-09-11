@@ -171,11 +171,11 @@ AddOutputFilter chunkFilter
 			<Item Name="ClimberOutput.vi" Type="VI" URL="../ClimberOutput.vi"/>
 			<Item Name="CompressorOutput.vi" Type="VI" URL="../CompressorOutput.vi"/>
 			<Item Name="DecorationsOutput.vi" Type="VI" URL="../DecorationsOutput.vi"/>
-			<Item Name="DriveAzimuthOutput.vi" Type="VI" URL="../DriveAzimuthOutput.vi"/>
-			<Item Name="DriveSpeedOutput.vi" Type="VI" URL="../DriveSpeedOutput.vi"/>
 			<Item Name="IntakeAndMagazineOutput.vi" Type="VI" URL="../IntakeAndMagazineOutput.vi"/>
 			<Item Name="LimeLightOutput.vi" Type="VI" URL="../LimeLightOutput.vi"/>
 			<Item Name="ShooterOutput.vi" Type="VI" URL="../ShooterOutput.vi"/>
+			<Item Name="SwerveAzimuthOutput.vi" Type="VI" URL="../SwerveAzimuthOutput.vi"/>
+			<Item Name="SwerveDriveOutput.vi" Type="VI" URL="../SwerveDriveOutput.vi"/>
 			<Item Name="TurretOutput.vi" Type="VI" URL="../TurretOutput.vi"/>
 		</Item>
 		<Item Name="Sensors" Type="Folder">

@@ -128,7 +128,6 @@ AddOutputFilter chunkFilter
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
 			<Item Name="DriverStationGetInstructions.vi" Type="VI" URL="../DriverStationGetInstructions.vi"/>
 			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
-			<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
 		</Item>
 		<Item Name="FIRST Architecture" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -266,6 +265,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 			<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
 			<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>
+			<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
 			<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>

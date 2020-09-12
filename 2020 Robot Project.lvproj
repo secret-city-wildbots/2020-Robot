@@ -255,8 +255,10 @@ AddOutputFilter chunkFilter
 			<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
+			<Item Name="GenericJoystickDeadband.vi" Type="VI" URL="../GenericJoystickDeadband.vi"/>
 			<Item Name="GetRefNumFast.vi" Type="VI" URL="../GetRefNumFast.vi"/>
 			<Item Name="InterpolateCalibrationValue.vi" Type="VI" URL="../InterpolateCalibrationValue.vi"/>
+			<Item Name="Latch.vim" Type="VI" URL="../Latch.vim"/>
 			<Item Name="PulseOutput.vi" Type="VI" URL="../PulseOutput.vi"/>
 			<Item Name="ReadCSV.vi" Type="VI" URL="../ReadCSV.vi"/>
 			<Item Name="ReadXML.vi" Type="VI" URL="../ReadXML.vi"/>

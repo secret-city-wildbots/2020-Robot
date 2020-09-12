@@ -1,0 +1,12 @@
+> Velocity control
+> Auto feed forward controller with velocity control
+> Joystick calibration
+> LIDAR tuning
+> New polymorphic test actuator interlocks
+> PDP port failure detection
+
+
+
+
+> Defensive swerve pivot point selection
+> Turret code

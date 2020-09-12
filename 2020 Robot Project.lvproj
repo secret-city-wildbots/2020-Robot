@@ -250,6 +250,10 @@ AddOutputFilter chunkFilter
 				<Item Name="SafeParser_Integer.vi" Type="VI" URL="../SafeParser_Integer.vi"/>
 				<Item Name="SafeParser_String.vi" Type="VI" URL="../SafeParser_String.vi"/>
 			</Item>
+			<Item Name="TestActuatorInterlock" Type="Folder">
+				<Item Name="TAI_Motor.vi" Type="VI" URL="../TAI_Motor.vi"/>
+				<Item Name="TAI_Solenoid.vi" Type="VI" URL="../TAI_Solenoid.vi"/>
+			</Item>
 			<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>
 			<Item Name="CustomPID_v4.0.vi" Type="VI" URL="../CustomPID_v4.0.vi"/>
 			<Item Name="EdgeTrigger.vi" Type="VI" URL="../EdgeTrigger.vi"/>

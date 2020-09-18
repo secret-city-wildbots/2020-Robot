@@ -1,0 +1,9 @@
+Green Heartbeat - robot disabled
+Solid Blue - robot is in field-oriented drive mode
+Solid Pink - robot is in robot-oriented drive mode
+Solid Red - master caution alarm
+Blinking Yellow - shooter spinning up
+Solid Yellow - shooter is spun-up but mis-aligned
+Solid Green - robot is firing
+Rainbow Sparkle - Human Player signal or successful climb
+Off - robot is diverting power to critical subsystem

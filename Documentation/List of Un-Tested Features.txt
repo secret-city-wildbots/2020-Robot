@@ -1,9 +1,5 @@
-> Velocity control
-> Auto feed forward controller with velocity control
-> Joystick calibration
 > LIDAR tuning
-> New polymorphic test actuator interlocks
-> PDP port failure detection
+> PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)
 
 
 

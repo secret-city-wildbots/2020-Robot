@@ -205,7 +205,7 @@ AddOutputFilter chunkFilter
 				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
 				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
 			</Item>
-			<Item Name="DriveModeStateController.vi" Type="VI" URL="../DriveModeStateController.vi"/>
+			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
 		</Item>

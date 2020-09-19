@@ -1,3 +1,5 @@
+> Drive rotation lock hysteresis
+
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)
 

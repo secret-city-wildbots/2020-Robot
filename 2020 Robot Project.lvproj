@@ -97,6 +97,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Autonomous" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Drive Sequencer" Type="Folder">
 				<Item Name="Support" Type="Folder">
 					<Item Name="AutoFeedForward.vi" Type="VI" URL="../AutoFeedForward.vi"/>
@@ -112,6 +113,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Subsystem Sequencer" Type="Folder">
 				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>
+				<Item Name="ManipBumpIntake.vi" Type="VI" URL="../../Auto-Parser/ManipBumpIntake.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>

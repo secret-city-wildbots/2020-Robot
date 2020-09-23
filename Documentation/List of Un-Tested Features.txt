@@ -1,5 +1,10 @@
 > Drive rotation lock hysteresis
 
+>Manip Wait
+>Drive Wait
+>Bump Intake
+>test intake at start of teleop
+
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)
 

@@ -112,6 +112,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Subsystem Sequencer" Type="Folder">
 				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>
+				<Item Name="ManipBumpIntake.vi" Type="VI" URL="../ManipBumpIntake.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 				<Item Name="ManipIntake.vi" Type="VI" URL="../ManipIntake.vi"/>
@@ -210,6 +211,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">
+			<Item Name="BumpIntakeLogic.vi" Type="VI" URL="../BumpIntakeLogic.vi"/>
 			<Item Name="IntakeStateController.vi" Type="VI" URL="../IntakeStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Miscellaneous " Type="Folder">

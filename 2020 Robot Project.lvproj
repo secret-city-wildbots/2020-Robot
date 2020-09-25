@@ -136,6 +136,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="autoninfo.vi" Type="VI" URL="../autoninfo.vi"/>
 			<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
 			<Item Name="dsdata.vi" Type="VI" URL="../dsdata.vi"/>

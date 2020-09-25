@@ -1,4 +1,4 @@
-Name: Steal2Shoot5
+Name: Steal2Shoot5BumpAngled
 Starting Location: Facing towards drivers, middle of bot on init line, aligned left/right with the trench balls
 Push Start Location (x,y,h): (509.2, 297.0, 180)
 What it does: Spins up shooter, drives forward off the init line and steals two balls, drives to the front of the power port and shoots 5

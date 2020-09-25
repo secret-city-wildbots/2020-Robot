@@ -1,14 +1,16 @@
-> Drive rotation lock hysteresis
 
+Last tested auto mode that works: Our2Shoot5Bump
+Ended with working on Shoot3Our3Shoot3 (not finished testing)
 >Manip Wait
 >Drive Wait
 >Bump Intake
 >test intake at start of teleop
 
+
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)
 
-
+> Drive rotation lock hysteresis (look for larger issue)
 
 
 > Defensive swerve pivot point selection

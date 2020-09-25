@@ -1,4 +1,4 @@
-Name: MoveOffInitLineShoot3
+Name: MoveOffInitLineShoot3Bump
 Starting Location: Can start anywhere where robot can see the target
 Push Start Location (x,y,h): (509.2, measured distance, 0)
 Number of balls to start: 3

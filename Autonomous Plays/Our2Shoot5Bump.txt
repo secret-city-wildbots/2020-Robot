@@ -1,4 +1,4 @@
-Name: Our2Shoot5
+Name: Our2Shoot5Bump
 Starting Location: Middle of robot on init line facing toward the drivers and aligned left/right with the balls
 Push Start Location (x,y,h): (509.2, 26.0, 180.0)
 Number of balls to start: 3

@@ -8,13 +8,13 @@ Confidence: Confident
 *
 DriveWait=time_delay,-1,1;
 DriveDistanceX=40,-0.3;
-DriveWait=balls_shot,2000,3;
+DriveWait=balls_shot,-1,3;
 DriveEnd=;
 *=;
 ManipWait=time_delay,-1,1;
 ManipAutoTarget=1;
 ManipBumpIntake=1;
-ManipWait=balls_shot,2000,3;
+ManipWait=balls_shot,-1,3;
 ManipBumpIntake=0;
 ManipAutoTarget=0;
 ManipEnd=;

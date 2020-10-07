@@ -244,6 +244,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GRNF_GenericSolenoid.vi" Type="VI" URL="../GRNF_GenericSolenoid.vi"/>
 				<Item Name="GRNF_Joystick.vi" Type="VI" URL="../GRNF_Joystick.vi"/>
 				<Item Name="GRNF_POT.vi" Type="VI" URL="../GRNF_POT.vi"/>
+				<Item Name="GRNF_Servo.vi" Type="VI" URL="../GRNF_Servo.vi"/>
 			</Item>
 			<Item Name="SafeParser" Type="Folder">
 				<Item Name="SafeParser_Float.vi" Type="VI" URL="../SafeParser_Float.vi"/>
@@ -252,6 +253,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="TestActuatorInterlock" Type="Folder">
 				<Item Name="TAI_Motor.vi" Type="VI" URL="../TAI_Motor.vi"/>
+				<Item Name="TAI_Servo.vi" Type="VI" URL="../TAI_Servo.vi"/>
 				<Item Name="TAI_Solenoid.vi" Type="VI" URL="../TAI_Solenoid.vi"/>
 			</Item>
 			<Item Name="AngularDistance.vi" Type="VI" URL="../AngularDistance.vi"/>
@@ -787,6 +789,13 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SafetyOutputCheckMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputCheckMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="WPI_SafetyOutputVIRefnumList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputVIRefnumList.vi"/>
+				<Item Name="WPI_ServoClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoClose.vi"/>
+				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
+				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Get.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
+				<Item Name="WPI_ServoSetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetPosition.vi"/>
+				<Item Name="WPI_ServoToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoToPWM.vi"/>
 				<Item Name="WPI_SetFilterFrequency.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_SetFilterFrequency.vi"/>
 				<Item Name="WPI_SolenoidCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidCache.vi"/>
 				<Item Name="WPI_SolenoidCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidCacheOp.ctl"/>

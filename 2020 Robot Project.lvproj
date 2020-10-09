@@ -191,6 +191,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
+			<Item Name="ModelShiftingLatency.vi" Type="VI" URL="../ModelShiftingLatency.vi"/>
 			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 		</Item>
 		<Item Name="Subsystem Climber" Type="Folder">

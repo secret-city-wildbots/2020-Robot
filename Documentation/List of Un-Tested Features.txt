@@ -1,3 +1,6 @@
+> Sticky button VI 
+> Servo interlock 
+
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)
 

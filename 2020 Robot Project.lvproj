@@ -271,6 +271,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ReducedBWSendToNT.vim" Type="VI" URL="../ReducedBWSendToNT.vim"/>
 			<Item Name="SafeParser.vi" Type="VI" URL="../SafeParser.vi"/>
 			<Item Name="StateSelection.vi" Type="VI" URL="../StateSelection.vi"/>
+			<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 			<Item Name="TimeThreshold.vi" Type="VI" URL="../TimeThreshold.vi"/>

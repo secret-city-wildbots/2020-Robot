@@ -1,4 +1,3 @@
-> Sticky button VI 
 > Servo interlock 
 
 > LIDAR tuning

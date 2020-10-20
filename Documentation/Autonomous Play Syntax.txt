@@ -34,6 +34,14 @@ DriveDistanceX=param1,param2;
 
 -----------------------------------------------------------
 
+DriveDistanceXAdvanced=param1,param2,param3;
+# This VI drives the robot in the field-oriented x-direction, with orientation lock and overshoot prevention.
+
+1. The drive distance specified in inches [-630,630].
+2. The number of inches under the goal allowed [0,630].
+3. The number of inches above the goal allowed [0,630].
+
+-----------------------------------------------------------
 DriveDistanceY=param1,param2;
 # This VI drives the robot in the field-oriented y-direction, note that there is no feedback control loop.
 
@@ -50,6 +58,13 @@ DriveAngleH=param1,param2;
 
 -----------------------------------------------------------
 
+DriveAngleHAdvanced=param1,param2;
+# This VI rotates the robot to the specified field-oriented angle. The angle has to be within the specified range for a certain amount of time.
+
+1. The goal angle specified in degrees on [0,360].
+2. The error allowed, the number of degrees on either side of the goal allowed [0,360].
+
+-----------------------------------------------------------
 SetRobotPosition=param1,param2;
 # This VI manually updates the robot's position, use to zero-out accumulated pose error.
 

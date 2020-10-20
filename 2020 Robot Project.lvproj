@@ -103,6 +103,7 @@ AddOutputFilter chunkFilter
 					<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
 				</Item>
 				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
+				<Item Name="DriveAngleHAdvanced.vi" Type="VI" URL="../DriveAngleHAdvanced.vi"/>
 				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
 				<Item Name="DriveDistanceXAdvanced.vi" Type="VI" URL="../DriveDistanceXAdvanced.vi"/>
 				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>

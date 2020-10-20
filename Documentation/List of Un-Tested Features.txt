@@ -1,6 +1,4 @@
-> Servo interlock 
->distance measurement from LL
->DriveDistanceX advanced auto  mode
+>Fix downhat zero imu bug
 
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)

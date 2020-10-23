@@ -34,12 +34,13 @@ DriveDistanceX=param1,param2;
 
 -----------------------------------------------------------
 
-DriveDistanceXAdvanced=param1,param2,param3;
+DriveDistanceXAdvanced=param1,param2,param3,param4;
 # This VI drives the robot in the field-oriented x-direction, with orientation lock and overshoot prevention.
 
 1. The drive distance specified in inches [-630,630].
 2. The number of inches under the goal allowed [0,630].
 3. The number of inches above the goal allowed [0,630].
+4. Timeout specified in milliseconds, set to -1 to ignore [-1,15000].
 
 -----------------------------------------------------------
 DriveDistanceY=param1,param2;

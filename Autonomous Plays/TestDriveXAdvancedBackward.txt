@@ -3,11 +3,11 @@ Starting Location: Can start anywhere legal with middle of robot on initiation l
 Push Start Location (x,y,h): (509.2, measured distance, 0)
 Number of balls to start: Any
 What it does: Drives backward
-Revision: 10/15/20
-Confidence: not confident
+Revision: 10/22/20
+Confidence: somewhat confident
 *
 DriveWait=time_delay,-1,1;
-DriveDistanceXAdvanced=-50,5,5;
+DriveDistanceXAdvanced=-50,5,5,-1;
 DriveWait=time_delay,100,1;
 DriveEnd=;
 *=;

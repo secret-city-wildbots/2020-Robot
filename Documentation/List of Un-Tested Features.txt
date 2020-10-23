@@ -1,6 +1,4 @@
-> Fix downhat zero imu bug
->test orientation lock in DriveXAdvanced
->test DriveAngleHAdvanced
+> Finish updating autonomous documentation
 
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)

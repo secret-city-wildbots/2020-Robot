@@ -1,0 +1,14 @@
+Name: TestDriveHAdvanced
+Starting Location: Can start anywhere legal with middle of robot on initiation line
+Push Start Location (x,y,h): (509.2, measured distance, 0)
+Number of balls to start: Any
+What it does: Turns 90 degrees left
+Revision: 10/22/20
+Confidence: somewhat confident
+*
+DriveWait=time_delay,-1,1;
+DriveAngleHAdvanced=90,5;
+DriveWait=time_delay,100,1;
+DriveEnd=;
+*=;
+ManipEnd=;

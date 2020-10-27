@@ -107,6 +107,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
 				<Item Name="DriveDistanceXAdvanced.vi" Type="VI" URL="../DriveDistanceXAdvanced.vi"/>
 				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
+				<Item Name="DriveDistanceYAdvanced.vi" Type="VI" URL="../DriveDistanceYAdvanced.vi"/>
 				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
 				<Item Name="DriveWait.vi" Type="VI" URL="../DriveWait.vi"/>

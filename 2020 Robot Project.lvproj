@@ -148,6 +148,7 @@ AddOutputFilter chunkFilter
 			<Item Name="pdpterminals.vi" Type="VI" URL="../pdpterminals.vi"/>
 			<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
 			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
+			<Item Name="robotprofile.vi" Type="VI" URL="../robotprofile.vi"/>
 		</Item>
 		<Item Name="Initialization" Type="Folder">
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
@@ -164,6 +165,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InitSpinner.vi" Type="VI" URL="../InitSpinner.vi"/>
 			<Item Name="InitStaticVIRefs.vi" Type="VI" URL="../InitStaticVIRefs.vi"/>
 			<Item Name="InitUserInterface.vi" Type="VI" URL="../InitUserInterface.vi"/>
+			<Item Name="RobotProfileParser.vi" Type="VI" URL="../RobotProfileParser.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder" URL="/&lt;vilib&gt;/addons/FRC_ThirdParty/lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -194,6 +196,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
+			<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
 			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
 		</Item>
 		<Item Name="Subsystem Climber" Type="Folder">

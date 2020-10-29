@@ -3,7 +3,8 @@
 >motor sinusoidal test mode
 >solenoid sinusoidal test mode
 
-> Legal MVP Overrides list
+
+> Robot profile bypass
 
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)

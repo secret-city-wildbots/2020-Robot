@@ -191,15 +191,16 @@ AddOutputFilter chunkFilter
 				<Item Name="GetSimulatedYaw.vi" Type="VI" URL="../GetSimulatedYaw.vi"/>
 				<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
 				<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
+				<Item Name="LIDARRangingPose.vi" Type="VI" URL="../LIDARRangingPose.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
+				<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
 			</Item>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
 			<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
 			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
-			<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
 		</Item>
 		<Item Name="Subsystem Climber" Type="Folder">
 			<Item Name="ClimbSequencer.vi" Type="VI" URL="../ClimbSequencer.vi"/>

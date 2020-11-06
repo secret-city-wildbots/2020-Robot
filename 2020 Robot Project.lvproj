@@ -189,6 +189,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GetLIDAR.vi" Type="VI" URL="../GetLIDAR.vi"/>
 				<Item Name="GetPigeonYaw.vi" Type="VI" URL="../GetPigeonYaw.vi"/>
 				<Item Name="GetSimulatedYaw.vi" Type="VI" URL="../GetSimulatedYaw.vi"/>
+				<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
 				<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
 				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
@@ -198,6 +199,7 @@ AddOutputFilter chunkFilter
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
 			<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
 			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
+			<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
 		</Item>
 		<Item Name="Subsystem Climber" Type="Folder">
 			<Item Name="ClimbSequencer.vi" Type="VI" URL="../ClimbSequencer.vi"/>
@@ -285,7 +287,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
-		<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>

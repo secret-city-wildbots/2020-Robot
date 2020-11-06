@@ -191,7 +191,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GetSimulatedYaw.vi" Type="VI" URL="../GetSimulatedYaw.vi"/>
 				<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
-				<Item Name="VisionPoseConversions.vi" Type="VI" URL="../VisionPoseConversions.vi"/>
+				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
 			</Item>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>

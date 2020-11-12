@@ -3,11 +3,16 @@
 >motor sinusoidal test mode
 >solenoid sinusoidal test mode
 
-
 > Robot profile bypass
+
+> tweak to defensive driving code
+
+
+
 
 > LIDAR tuning
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)
 
-> Defensive swerve pivot point selection
+
+
 > Turret code

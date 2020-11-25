@@ -201,9 +201,12 @@ AddOutputFilter chunkFilter
 				<Item Name="GetLIDAR.vi" Type="VI" URL="../GetLIDAR.vi"/>
 				<Item Name="GetPigeonYaw.vi" Type="VI" URL="../GetPigeonYaw.vi"/>
 				<Item Name="GetSimulatedYaw.vi" Type="VI" URL="../GetSimulatedYaw.vi"/>
+				<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
 				<Item Name="GetVision.vi" Type="VI" URL="../GetVision.vi"/>
+				<Item Name="LIDARRangingPose.vi" Type="VI" URL="../LIDARRangingPose.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
-				<Item Name="VisionPoseConversions.vi" Type="VI" URL="../VisionPoseConversions.vi"/>
+				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
+				<Item Name="VisionRangingPose.vi" Type="VI" URL="../VisionRangingPose.vi"/>
 			</Item>
 			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>

@@ -1,5 +1,8 @@
 > LIDAR angle and offset code
+> Configure robot profiles
 
-> Neo sensor queries can take close to 70 ms.
+> Falcon code for swerve module #3
+
+> Neo sensor queries can take close to 70 ms (may not be an issue with the Falcons)
 
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)

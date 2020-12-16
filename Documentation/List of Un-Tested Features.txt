@@ -1,7 +1,8 @@
-> LIDAR angle and offset code
-> Configure robot profiles
-
 > Falcon code for swerve module #3
+
+
+> LIDAR angle and offset code
+
 
 > Neo sensor queries can take close to 70 ms (may not be an issue with the Falcons)
 

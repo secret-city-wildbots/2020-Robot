@@ -13,7 +13,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SwerveCenterKinematics.vi" Type="VI" URL="../SwerveCenterKinematics.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -222,12 +221,13 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystem Control Panel" Type="Folder"/>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="Swerve Toolbox" Type="Folder">
-				<Item Name="ChooseDefensivePivot.vi" Type="VI" URL="../ChooseDefensivePivot.vi"/>
+				<Item Name="ChooseSwerveCenter.vi" Type="VI" URL="../ChooseSwerveCenter.vi"/>
 				<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
 				<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 				<Item Name="SwerveCornerKinematics.vi" Type="VI" URL="../SwerveCornerKinematics.vi"/>
 				<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
 				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
+				<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
 				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
 			</Item>
 			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
@@ -898,7 +898,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SwerveCenterKinematics.vi" Type="VI" URL="../SwerveCenterKinematics.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

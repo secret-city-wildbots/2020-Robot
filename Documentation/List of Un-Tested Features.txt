@@ -1,9 +1,9 @@
 > Falcon code for all swerve modules
-> Can bus error
+
+
+
+
+
 
 > LIDAR angle and offset code
-
-
-> Neo sensor queries can take close to 70 ms (may not be an issue with the Falcons)
-
 > PDP port failure detection (claims issue on two PDP ports) (put a timer on it?)

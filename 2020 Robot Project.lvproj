@@ -221,14 +221,14 @@ AddOutputFilter chunkFilter
 		<Item Name="Subsystem Control Panel" Type="Folder"/>
 		<Item Name="Subsystem Drive" Type="Folder">
 			<Item Name="Swerve Toolbox" Type="Folder">
-				<Item Name="ChooseDefensivePivot.vi" Type="VI" URL="../ChooseDefensivePivot.vi"/>
 				<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
-				<Item Name="SwerveCenterKinematics.vi" Type="VI" URL="../SwerveCenterKinematics.vi"/>
 				<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
-				<Item Name="SwerveCornerKinematics.vi" Type="VI" URL="../SwerveCornerKinematics.vi"/>
+				<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
 				<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
 				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
+				<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
 				<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
+				<Item Name="SwerveOrientationLock.vi" Type="VI" URL="../SwerveOrientationLock.vi"/>
 			</Item>
 			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
 			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>

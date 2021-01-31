@@ -1,0 +1,31 @@
+Name: TestXHPathY
+Starting Location: Middle of robot on init line, facing the oppposing alliance wall, 50 inches from our trench wall to center of bot
+Push Start Location (x,y,h): (509.2, 50.0, 0.0)
+What it does: Spins up shooter, backs off init line, spins in place, gets 3 trench balls, goes to front of trench
+Revision: 1/30/21
+Confidence: unsure
+*
+DriveWait=time_delay,-1,1;
+DriveDistanceX=40,-0.3;
+DriveWait=time_delay,200,1;
+DriveWait=time_delay,100,1;
+DriveAngleH=180,0.4;
+DrivePath=2,5,5000,PathToOurTrenchBalls;
+DriveWait=time_delay,250,1;
+DriveDistanceY=30,0.3;
+DriveWait=time_delay,100,1;
+DriveEnd=;
+*=;
+ManipWait=time_delay,-1,1;
+ManipAutoTarget=1;
+ManipWait=time_delay,200,1;
+ManipAutoTarget=0;
+ManipWait=drive_step,4,1;
+ManipIntake=;
+ManipWait=drive_step,6,1;
+ManipIntake=;
+ManipWait=drive_step,8,1;
+ManipAutoTarget=1;
+ManipWait=time_delay,100,1;
+ManipAutoTarget=0;
+ManipEnd=;

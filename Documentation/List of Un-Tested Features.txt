@@ -3,3 +3,4 @@
 
 > Manip subsystem sequencer 
 > New servo 
+> Updated sticky button 

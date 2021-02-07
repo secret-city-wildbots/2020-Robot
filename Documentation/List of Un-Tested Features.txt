@@ -1,6 +1,6 @@
+> Updated sticky button 
+> Manip subsystem sequencer 
+> Confirm nothing was broken in the path follower with wire cleanup
+
 
 > LIDAR angle and offset code
-
-> Manip subsystem sequencer 
-> New servo 
-> Updated sticky button 

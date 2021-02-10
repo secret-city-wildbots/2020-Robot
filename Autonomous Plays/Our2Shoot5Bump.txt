@@ -7,9 +7,9 @@ Revision: 9/22/20
 Confidence: Runs, but needs more tuning for shots to be accurate
 *
 DriveWait=time_delay,-1,1;
-DrivePath=1.5,5,5000,PathToOurTwoBalls;
+DrivePath=1.5,5,5000,PathToOurTwoBalls,normal;
 DriveWait=time_delay,250,1;
-DrivePath=5,10,9000,PathFromOurTwoBalls;
+DrivePath=5,10,9000,PathFromOurTwoBalls,normal;
 DriveWait=balls_shot,-1,1;
 DriveEnd=;
 *=;

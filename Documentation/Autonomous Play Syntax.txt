@@ -84,13 +84,14 @@ SetRobotPosition=param1,param2;
 
 -----------------------------------------------------------
 
-DrivePath=param1,param2,param3,param4;
+DrivePath=param1,param2,param3,param4,param5;
 # This VI uses the pure-pursuit algorithm to follow the specified path.
 
 1. The maximum distance error magnitude (in) to allow advancement to the next step.
 2. The maximum angle error magnitude (deg) to allow advancement to the next step.
 3. The maximum elapsed time (ms) before advancement to the next step, set to -1 to ignore.
 4. The name of the path to follow, do not include the .csv extension.
+5. Whether we use the given path or need the robot to choose a subpath (normal, robot_suffix).
 
 -----------------------------------------------------------
 -----------------------------------------------------------

@@ -6,9 +6,9 @@ Revision: 9/22/20
 Confidence: Unsure
 *
 DriveWait=time_delay,-1,1;
-DrivePath=1.5,5,5000,PathToStealBallsAngled;
+DrivePath=1.5,5,5000,PathToStealBallsAngled,normal;
 DriveWait=time_delay,250,1;
-DrivePath=5,10,9000,PathFromStealBallsAngled;
+DrivePath=5,10,9000,PathFromStealBallsAngled,normal;
 DriveWait=balls_shot,-1,5;
 DriveEnd=;
 *=;

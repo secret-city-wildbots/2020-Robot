@@ -1,0 +1,13 @@
+Name: TestBarrelRacing
+Starting Location: Middle of robot on init line, facing the oppposing alliance wall, 50 inches from our trench wall to center of bot
+Push Start Location (x,y,h): (162.0, 169.9, 0.0)
+What it does: Tests the barrel racing path 
+Revision: 2/11/21
+Confidence: unsure
+*
+DriveWait=time_delay,-1,1;
+DrivePath=2,5,-1,BarrelRacing,normal;
+DriveEnd=;
+*=;
+ManipWait=time_delay,-1,1;
+ManipEnd=;

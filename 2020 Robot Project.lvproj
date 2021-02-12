@@ -99,7 +99,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous" Type="Folder">
 			<Item Name="Drive Sequencer" Type="Folder">
 				<Item Name="Support" Type="Folder">
-					<Item Name="AutoFeedForward.vi" Type="VI" URL="../AutoFeedForward.vi"/>
+					<Item Name="AutoFeedForwardConversion.vi" Type="VI" URL="../AutoFeedForwardConversion.vi"/>
 					<Item Name="PathSearch.vi" Type="VI" URL="../PathSearch.vi"/>
 				</Item>
 				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>

@@ -224,6 +224,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
 				<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 				<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
+				<Item Name="SwerveHeadingLock2.vi" Type="VI" URL="../SwerveHeadingLock2.vi"/>
 				<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
 				<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
 				<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
@@ -233,6 +234,7 @@ AddOutputFilter chunkFilter
 			<Item Name="DecideWhenToShift.vi" Type="VI" URL="../DecideWhenToShift.vi"/>
 			<Item Name="DriveModeController.vi" Type="VI" URL="../DriveModeController.vi"/>
 			<Item Name="DriveStateController.vi" Type="VI" URL="../DriveStateController.vi"/>
+			<Item Name="DriveStateController2.vi" Type="VI" URL="../DriveStateController2.vi"/>
 			<Item Name="FieldOrientedStateController.vi" Type="VI" URL="../FieldOrientedStateController.vi"/>
 		</Item>
 		<Item Name="Subsystem Intake" Type="Folder">

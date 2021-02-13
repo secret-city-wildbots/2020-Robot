@@ -1,5 +1,7 @@
 > New path following algorithm
 > Change the "force human" button logic
 > Individual PID parameters for each azimuth motor
+> Swerve ground speed calculation
+> New swerve heading lock logic
 
 > LIDAR angle and offset code

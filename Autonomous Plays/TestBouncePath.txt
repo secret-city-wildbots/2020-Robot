@@ -1,0 +1,13 @@
+Name: TestBouncePath
+Starting Location: Middle of robot on init line, facing the oppposing alliance wall, 50 inches from our trench wall to center of bot
+Push Start Location (x,y,h): (180.0, 165, 0.0)
+What it does: Tests the bounce path 
+Revision: 2/13/21
+Confidence: unsure
+*
+DriveWait=time_delay,-1,1;
+DrivePath=2,5,-1,BouncePath,normal;
+DriveEnd=;
+*=;
+ManipWait=time_delay,-1,1;
+ManipEnd=;

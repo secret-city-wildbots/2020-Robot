@@ -1,1 +1,5 @@
+> New path following algorithm
+> Change the "force human" button logic
+> Individual PID parameters for each azimuth motor
+
 > LIDAR angle and offset code
